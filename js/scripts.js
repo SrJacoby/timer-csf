@@ -20,7 +20,7 @@ function formatTime(seconds) {
       // Verifica se o tempo acabou
       if (remainingTime === 0) {
         clearInterval(intervalId); // Para o intervalo quando o tempo acabar
-        document.getElementById('timer').innerText = "Começou!";
+        document.getElementById('timer').innerText = "Fernando não tem CSF!";
       }
     }, 1000);
   }
